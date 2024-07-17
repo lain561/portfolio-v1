@@ -1,18 +1,22 @@
 body{
     background-color: rgb(0, 0, 40);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: base-font, sans-serif; 
 }
 
 h1, h2{
     font-family: base-font; 
-    text-align: center;
     color:rgb(132, 155, 255);
     text-shadow: 0 0 72px #f9fafb8c, 0 0 24px #f9fafb3d;
     margin: 15px; 
-    padding: 1px;
+    text-align: center;
 }
 
 #intro {
-    padding-top: 200px;
     opacity: 0;
     animation: fadeIn 2s forwards;   
 }
@@ -32,11 +36,11 @@ h1, h2{
 
 .hello {
     margin-bottom: 0px;
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .name{
-    font-size: 4.5rem;
+    font-size: 7rem;
 }
 
 @font-face {
