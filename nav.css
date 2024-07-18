@@ -4,11 +4,10 @@ nav, nav ul{
 }
 
 nav {
-    margin-top: 15px;
-    border-style: solid;
-    border-radius: 500px;
-    border-color: rgb(132, 155, 255);
-    box-pack: 0 0 72px #f9fafb8c, 0 0 24px #f9fafb3d;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;   
+    transition: 0.2s;
+    transition-timing-function: ease;
 }
 
 nav ul{
@@ -37,7 +36,7 @@ nav a{
 
 nav a:hover{
     color: rgb(205, 214, 255);
-    
+    transition: 0.35s;
 }
 
 nav li:first-child{
@@ -47,4 +46,17 @@ nav li:first-child{
 
 nav li:last-child{
     margin-right: 16px;
+}
+
+#first{
+    font-size: 1.7rem;
+}
+
+#logo{
+    width: 50px;
+    padding-right: 16px;
+}
+
+@keyframes fade{
+    100% {opacity: 100%; transform: translateY(-10px);}
 }
