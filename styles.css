@@ -1,33 +1,51 @@
-body{
+body {
+    min-height: 100vh;
     background-color: rgb(0, 0, 40);
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-    margin: 0; 
-    font-family: base-font, sans-serif; 
+    font-family: base-font, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-y: hidden;
+}
+
+body main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'base-font';
+    src: url(fonts/Prototype.ttf);
 }
 
 h1, h2{
-    font-family: base-font; 
-    color:rgb(132, 155, 255);
+    color: rgb(132, 155, 255);
     text-shadow: 0 0 72px #f9fafb8c, 0 0 24px #f9fafb3d;
     margin: 15px; 
-    text-align: center;
+    font-weight: 1;
+}
+
+#home{
+    display: flex;
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
 }
 
 #intro {
     opacity: 0;
-    animation: fadeIn 2s forwards;   
+    animation: fadeIn 1.5s forwards;   
+    text-align: center;
 }
 
-.hello, .name{
+.hello, .name {
     transition: 0.2s;
     transition-timing-function: ease;
 }
 
-@keyframes fadeIn{
-    100%{opacity: 100%; transform: translateY(-10px);}
+@keyframes fadeIn {
+    100% {opacity: 100%; transform: translateY(-10px);}
 }
 
 .hello:hover, .name:hover {
@@ -36,14 +54,9 @@ h1, h2{
 
 .hello {
     margin-bottom: 0px;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
-.name{
+.name {
     font-size: 7rem;
-}
-
-@font-face {
-    font-family: 'base-font';
-    src: url(fonts/Prototype.ttf);
 }
