@@ -1,7 +1,7 @@
 body, html {
     min-height: 100vh;
     background-color: #0c0d11;
-    font-family: base-font, Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'White Rabbit', Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: hidden;
 }
 
@@ -14,8 +14,8 @@ main{
 }
 
 @font-face {
-    font-family: 'base-font';
-    src: url(fonts/whitrabt.ttf);
+    font-family: 'White Rabbit';
+    src: url('/docs/fonts/WHITRABT.TTF') format('truetype');
 }
 
 h1, h2{
