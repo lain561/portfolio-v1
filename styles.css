@@ -1,12 +1,13 @@
-body {
+body, html {
     min-height: 100vh;
     background-color: #0c0d11;
     font-family: base-font, Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: hidden;
 }
 
-body main{
+main{
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -27,6 +28,8 @@ h1, h2{
 #intro {
     opacity: 0;
     animation: fadeIn 1.5s forwards;   
+    position: relative;
+    top: -75px;
     text-align: center;
 }
 
