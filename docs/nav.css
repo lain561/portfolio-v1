@@ -24,24 +24,30 @@ nav li{
 }
 
 nav a{
+    display: flex;
+    align-items: center;
     color: #78CCFB;
     text-shadow: 0 0 30px #78CCFB; 
     font-weight: 1;
     height: 100%;
     text-decoration: none;
-    display: flex;
-    align-items: center;
     font-size: 1.3rem;
 }
 
 nav a:hover{
     color: rgb(205, 214, 255);
-    transition: 0.35s;
+    transition: 0.5s;
+}
+
+.nav-icon:hover{
+    opacity: 50%;
+    transition: 0.5s;
 }
 
 nav li:first-child{
     margin-right: auto;
     margin-left: 16px;
+    font-size: 1.7rem;
 }
 
 nav li:last-child{
@@ -52,9 +58,18 @@ nav li:last-child{
     font-size: 1.7rem;
 }
 
-#logo{
-    width: 50px;
+#first img{
     padding-right: 16px;
+    width: 50px;
+}
+
+.nav-icon{
+    width: 40px;
+    filter: drop-shadow(0 0 30px #78CCFB);
+}
+
+.linkedin{
+    width: 37px;
 }
 
 @keyframes fade{
