@@ -1,9 +1,7 @@
 body {
     min-height: 100vh;
-    background-color: rgb(7, 19, 71);
-    font-family: base-font, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    background-color: #0c0d11;
+    font-family: base-font, Verdana, Geneva, Tahoma, sans-serif;
     overflow-y: hidden;
 }
 
@@ -16,22 +14,15 @@ body main{
 
 @font-face {
     font-family: 'base-font';
-    src: url(fonts/Prototype.ttf);
+    src: url(fonts/whitrabt.ttf);
 }
 
 h1, h2{
-    color: rgb(132, 155, 255);
-    text-shadow: 0 0 72px #f9fafb8c, 0 0 24px #1003573d;
-    margin: 15px; 
+    color: #78CCFB;
+    text-shadow: 0 0 30px #78CCFB; 
     font-weight: 1;
 }
 
-#home{
-    display: flex;
-    height: 100vh; 
-    align-items: center;
-    justify-content: center;
-}
 
 #intro {
     opacity: 0;
@@ -53,10 +44,11 @@ h1, h2{
 }
 
 .hello {
-    margin-bottom: 0px;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .name {
-    font-size: 7rem;
+    margin-top: 2rem;
+    margin-top: 2rem;
+    font-size: 5.5rem;
 }

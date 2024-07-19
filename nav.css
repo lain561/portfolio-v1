@@ -24,8 +24,8 @@ nav li{
 }
 
 nav a{
-    color: rgb(132, 155, 255);
-    text-shadow: 0 0 72px #f9fafb8c, 0 0 24px #f9fafb3d;
+    color: #78CCFB;
+    text-shadow: 0 0 30px #78CCFB; 
     font-weight: 1;
     height: 100%;
     text-decoration: none;
