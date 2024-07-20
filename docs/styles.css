@@ -15,7 +15,7 @@ main{
 
 @font-face {
     font-family: 'White Rabbit';
-    src: url('https://lain561.github.io/docs/fonts/WHITRABT.TTF');
+    src: url('https://lain561.github.io/docs/fonts/WHITRABT.TTF') format('truetype');
 }
 
 h1, h2{
