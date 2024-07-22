@@ -55,3 +55,27 @@ h1, h2{
     margin-top: 2rem;
     font-size: 5.5rem;
 }
+
+button{
+    margin: 2rem 15px;
+    font-family: 'White Rabbit';
+    font-size: x-large;
+    color:#78CCFB;
+    width: 200px; 
+    height: 3rem;
+    border-radius: 15px;
+    border-style: solid;
+    background-color: transparent;
+    border-color: #78CCFB;
+    border-width: 2px;
+    transition: 0.2s;
+    transition-timing-function: ease;
+}
+
+button:hover{
+    cursor: pointer;
+    width: 250px; 
+    height: 3.5rem;
+    font-size: xx-large;
+    box-shadow: 0 0px 20px #78CCFB;
+}
