@@ -29,7 +29,7 @@ h1, h2{
     opacity: 0;
     animation: fadeIn 1.5s forwards;   
     position: relative;
-    top: -75px;
+    top: -50px;
     text-align: center;
 }
 
@@ -47,13 +47,13 @@ h1, h2{
 }
 
 .hello {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .name {
     margin-top: 2rem;
     margin-top: 2rem;
-    font-size: 5.5rem;
+    font-size: 5.6rem;
 }
 
 button{
@@ -61,8 +61,8 @@ button{
     font-family: 'White Rabbit';
     font-size: x-large;
     color:#78CCFB;
-    width: 200px; 
-    height: 3rem;
+    width: 220px; 
+    height: 3.2rem;
     border-radius: 15px;
     border-style: solid;
     background-color: transparent;
@@ -75,7 +75,7 @@ button{
 button:hover{
     cursor: pointer;
     width: 250px; 
-    height: 3.5rem;
+    height: 3.7rem;
     font-size: xx-large;
     box-shadow: 0 0px 20px #78CCFB;
 }

@@ -12,15 +12,26 @@
 <body>
     <!--Navigation Links-->
     <nav class="navbar">
-        <ul>
-            <li><a href="https://lain561.github.io/portfolio-v1/" id="first"><img class="nav-icon" src="images/logo.png" alt="logo.png">Ethan Mckissic</a></li>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg id="exit" xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#78CCFB"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="">About</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Skills</a></li>
             <li><a href="">Involvement</a></li>
-            <li><a href="mailto: jmckissicethan@email.com">Contact</a></li>
-            <li><a href="https://github.com/lain561"><img class="nav-icon" src="images/github.png" alt="github.png"> </a></li>
-            <li><a href="https://www.linkedin.com/in/ethan-mckissic-1682362a8/" id="last"><img class="nav-icon linkedin" src="images/linkedin.png" alt="linkedin.png"></a></li>
+            <li><a href="mailto: mckissicethan@email.com">Contact</a></li>
+            <li><a href="https://github.com/lain561"><img class="nav-icon" src="images/github.png" alt="github.png">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/ethan-mckissic-1682362a8/" id="last"><img class="nav-icon linkedin" src="images/linkedin.png" alt="linkedin.png">LinkedIn</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile"><a href="https://lain561.github.io/portfolio-v1/" id="first"><img class="nav-icon" src="images/logo.png" alt="logo.png">Ethan Mckissic</a></li>
+            <li class="hideOnMobile"><a href="">About</a></li>
+            <li class="hideOnMobile"><a href="">Projects</a></li>
+            <li class="hideOnMobile"><a href="">Skills</a></li>
+            <li class="hideOnMobile"><a href="">Involvement</a></li>
+            <li class="hideOnMobile"><a href="mailto: jmckissicethan@email.com">Contact</a></li>
+            <li class="hideOnMobile"><a href="https://github.com/lain561"><img class="nav-icon" src="images/github.png" alt="github.png"> </a></li>
+            <li class="hideOnMobile" id="last"><a href="https://www.linkedin.com/in/ethan-mckissic-1682362a8/" id="last"><img class="nav-icon linkedin" src="images/linkedin.png" alt="linkedin.png"></a></li>
+            <li onclick="showSidebar()"><a href="#"><svg id="menu" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" fill="#78CCFB"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
 
@@ -38,5 +49,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

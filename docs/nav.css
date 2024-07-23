@@ -43,15 +43,14 @@ nav a:hover{
     opacity: 80%;
     transition: 0.5s;
 }
-
 nav li:first-child{
-    margin-right: auto;
     margin-left: 16px;
+    margin-right: auto; 
     font-size: 1.7rem;
 }
 
-nav li:last-child{
-    margin-right: 16px;
+#last{
+    margin-right: -8px;
 }
 
 #first{
@@ -63,7 +62,7 @@ nav li:last-child{
     width: 50px;
 }
 
-.nav-icon{
+.nav-icon, #menu, #exit{
     width: 40px;
     filter: drop-shadow(0 0 30px #78CCFB);
 }
@@ -74,4 +73,41 @@ nav li:last-child{
 
 @keyframes fade{
     100% {opacity: 100%; transform: translateY(-10px);}
+}
+
+.sidebar{
+    position: fixed; 
+    top: 0;
+    left: 0; 
+    height: 50vh;
+    width: 50vh;
+    z-index: 999;
+    background-color: black; 
+    display: none; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li{
+    margin: 16px auto;
+    width: 100%;
+}
+
+.sidebar a{
+    width: 100%;
+}
+
+#menu{
+    display: none;
+}
+
+@media(max-width: 1000px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    #menu{
+        display: block;
+    }
 }
