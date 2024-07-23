@@ -1,4 +1,6 @@
 body, html {
+    padding: 0px;
+    margin: 0px;
     min-height: 100vh;
     background-color: #0c0d11;
     font-family: 'White Rabbit', Verdana, Geneva, Tahoma, sans-serif;
@@ -31,9 +33,6 @@ h1, h2{
     position: relative;
     top: -50px;
     text-align: center;
-}
-
-.hello, .name {
     transition: 0.2s;
     transition-timing-function: ease;
 }
@@ -78,4 +77,45 @@ button:hover{
     height: 3.7rem;
     font-size: xx-large;
     box-shadow: 0 0px 20px #78CCFB;
+}
+
+@media(max-width: 730px){
+    .hello {
+        font-size: 2rem;
+    }
+    
+    .name {
+        margin-top: 2rem;
+        margin-top: 2rem;
+        font-size: 4rem;
+    }
+
+    button
+    {
+       width: 10rem;
+       height: 2.5rem;
+       font-size: large;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .hello {
+        font-size: 1.5rem;
+    }
+    
+    .name {
+        margin-top: 2rem;
+        margin-top: 2rem;
+        font-size: 2.5rem;
+    }
+
+    button
+    {
+       width: 9rem;
+       height: 2rem;
+       font-size: small;
+       margin: 2rem 10px;
+    }
+    
 }

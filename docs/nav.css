@@ -1,37 +1,63 @@
 nav, nav ul{
     padding: 0px;
-    margin: 0px;
+    margin-top: 0px;
 }
 
-nav {
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     opacity: 0;
     animation: fadeIn 1.5s forwards;   
     transition: 0.2s;
     transition-timing-function: ease;
 }
 
-nav ul{
-    height: 75px;
-    width: 100%;
+.brand-name, .navbar-links{
+    margin-top: 1rem;
+}
+
+.brand-name{
+    display: flex;
+    align-items: center;    
+}
+
+.brand-name a{
+    font-weight: 1;
+    font-size: 1.6rem;
+}
+
+.brand-name img{
+    margin-left: 24px;
+    padding-right: 16px;
+    width: 50px;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.navbar-links ul{
     list-style: none;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
+
 
 nav li{
     padding: 0 16px;
+    list-style: none;
 }
 
 nav a{
-    display: flex;
-    align-items: center;
     color: #78CCFB;
     text-shadow: 0 0 30px #78CCFB; 
     font-weight: 1;
-    height: 100%;
     text-decoration: none;
     font-size: 1.3rem;
+    display: block;
 }
 
 nav a:hover{
@@ -43,71 +69,67 @@ nav a:hover{
     opacity: 80%;
     transition: 0.5s;
 }
-nav li:first-child{
-    margin-left: 16px;
-    margin-right: auto; 
-    font-size: 1.7rem;
-}
 
-#last{
-    margin-right: -8px;
-}
-
-#first{
-    font-size: 1.7rem;
-}
-
-#first img{
-    padding-right: 16px;
-    width: 50px;
-}
-
-.nav-icon, #menu, #exit{
-    width: 40px;
+.brand-name img, .nav-icons img, .menu{
+    width: 45px;
     filter: drop-shadow(0 0 30px #78CCFB);
 }
 
-.linkedin{
-    width: 37px;
+.nav-icons .linkedin{
+    width: 40px;
 }
 
 @keyframes fade{
     100% {opacity: 100%; transform: translateY(-10px);}
 }
 
-.sidebar{
-    position: fixed; 
-    top: 0;
-    left: 0; 
-    height: 50vh;
-    width: 50vh;
-    z-index: 999;
-    background-color: black; 
-    display: none; 
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.sidebar li{
-    margin: 16px auto;
-    width: 100%;
-}
-
-.sidebar a{
-    width: 100%;
-}
-
-#menu{
+.menu{
+    position: absolute;
+    top: 15px;
+    right: 1rem;
     display: none;
 }
 
 @media(max-width: 1000px){
-    .hideOnMobile{
+    .navbar-links{
         display: none;
     }
 
-    #menu{
+    .menu{
         display: block;
+    }
+
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links li{
+        padding: .75rem 2rem;
+    }
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+    .nav-icons li{
+        padding: .75rem;
+    }
+
+    .nav-icons li .github{
+        padding-left: 1rem;
+    }
+}
+
+@media(max-width: 400px){
+    .brand-name a{
+        font-weight: 1;
+        font-size: 1.25rem;
     }
 }

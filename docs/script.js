@@ -1,7 +1,12 @@
-function showSidebar(){
-    const sidebar = document.getElementsByClassName("sidebar")[0].style.display = "flex";
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const toggleButton = document.querySelector('.menu');
+    const navbarLinks = document.querySelector('.navbar-links');
 
-function hideSidebar(){
-    const sidebar = document.getElementsByClassName("sidebar")[0].style.display = "none";
-}
+    if (toggleButton && navbarLinks) {
+        toggleButton.addEventListener('click', () => {
+            navbarLinks.classList.toggle('active');
+        });
+    } else {
+        console.error('Toggle button or navbar links not found');
+    }
+});
