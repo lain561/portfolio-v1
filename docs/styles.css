@@ -33,16 +33,20 @@ h1, h2{
     position: relative;
     top: -50px;
     text-align: center;
-    transition: .2s;
-    transition-timing-function: ease;
 }
 
 @keyframes fadeIn {
     100% {opacity: 100%; transform: translateY(10px);}
 }
 
+.hello, .name{
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
 .hello:hover, .name:hover {
     transform: translateY(-8px);
+    transition: .2s;
 }
 
 .hello {
