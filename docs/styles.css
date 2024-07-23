@@ -33,7 +33,7 @@ h1, h2{
     position: relative;
     top: -50px;
     text-align: center;
-    transition: 0.2s;
+    transition: .2s;
     transition-timing-function: ease;
 }
 
@@ -95,11 +95,18 @@ button:hover{
        width: 10rem;
        height: 2.5rem;
        font-size: large;
+    }    
+
+    button:hover{
+        cursor: pointer;
+        width: 11rem; 
+        height: 3rem;
+        font-size: x-large;
+        box-shadow: 0 0px 20px #78CCFB;
     }
-    
 }
 
-@media(max-width: 400px){
+@media(max-width: 500px){
     .hello {
         font-size: 1.5rem;
     }
@@ -116,6 +123,15 @@ button:hover{
        height: 2rem;
        font-size: small;
        margin: 2rem 10px;
+       border-radius: 12px;
+    }
+
+    button:hover{
+        cursor: pointer;
+        width: 9.5rem; 
+        height: 2.5rem;
+        font-size: medium;
+        box-shadow: 0 0px 20px #78CCFB;
     }
     
 }
