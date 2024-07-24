@@ -3,56 +3,88 @@
 }
 
 .about{
-    opacity: 0;
-    animation: fadeIn 1.5s forwards;   
+    transition: .2s;
+    animation: fadeInUp 1.5s ease;  
     width: 100%;
+}
+
+.about-header{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.about-header h1{
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.about-image{
+    margin: auto;
+    margin-left: 90px;
+    width: 400px;
 }
 
 .about img{
     height: auto; 
-    width: 500px;
-    padding: 78px 25px;
-    border-radius: 900px;
+    width: 100%;
+    border-radius: 200px;
 }
 
-.about-text h1:hover, .about-text h5:hover{
+.about-header h1:hover{
     transform: translateY(-8px);
 }
 
 .about-box{
-    position: relative;
-    top: 60px;
-    width: 1200px;
-    margin: auto;
+    width: 75%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .about-text{
-    width: 1000px;
-    margin-bottom: 20px;
-    transition: .2s;
-    transition-timing-function: ease;
-}
-
-.about-text h1{
-    font-size: 6rem;
-    transition: .2s;
-    transition-timing-function: ease;
-    margin-bottom: 25px;
+    flex: 1;
 }
 
 .about-text h5{
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-bottom: 30px;
     transition: .2s;
     transition-timing-function: ease;
 }
 
 .about-text p{
-    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
     color: rgb(138, 200, 255);
     letter-spacing: 1px;
-    line-height: 28px;
+    line-height: 1.5;
+}
+
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 1; 
+        transform: translateY(0px);
+    }
+
+}
+
+@keyframes fadeInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+
+    }
 }
