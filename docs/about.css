@@ -1,18 +1,19 @@
 *{
     box-sizing: border-box;
+    max-height: 100vh; 
 }
 
 .about{
-    transition: .2s;
-    animation: fadeInUp 1.5s ease;  
     width: 100%;
 }
 
 .about-header{
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
     text-align: center;
     font-size: 5rem;
-    margin-top: 70px;
-    margin-bottom: 20px;
+    margin-top: 5rem;
+    margin-bottom: 2rem; 
 }
 
 .about-header h1{
@@ -42,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    animation: fadeInUp 1.5s ease;  
 }
 
 .about-text{
@@ -49,10 +51,8 @@
 }
 
 .about-text h5{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 30px;
-    transition: .2s;
-    transition-timing-function: ease;
 }
 
 .about-text p{
@@ -66,7 +66,7 @@
 @keyframes fadeInUp {
     0%{
         opacity: 0;
-        transform: translateY(50px);
+        transform: translateY(30px);
     }
 
     100%{
@@ -79,7 +79,7 @@
 @keyframes fadeInRight {
     0%{
         opacity: 0;
-        transform: translateX(-50px);
+        transform: translateX(-30px);
     }
 
     100%{
@@ -88,3 +88,4 @@
 
     }
 }
+
