@@ -1,24 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
 .about{
     opacity: 0;
     animation: fadeIn 1.5s forwards;   
-    position: relative;
-    top: -20rem;
-    font-size: 5.6rem;
-    transition: .2s;
-    transition-timing-function: ease;
+    width: 100%;
 }
 
-.about:hover{
+.about img{
+    height: auto; 
+    width: 500px;
+    padding: 78px 25px;
+    border-radius: 900px;
+}
+
+.about-text h1:hover, .about-text h5:hover{
     transform: translateY(-8px);
 }
 
 .about-box{
+    position: relative;
+    top: 60px;
+    width: 1200px;
+    margin: auto;
     display: flex;
-    color: aqua;
-    border-style: solid;
-    border-width: 1px;
-    border-color: aqua;
-    height: 30rem;
-    width: 50rem;
-    margin-top: 10rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text{
+    width: 1000px;
+    margin-bottom: 20px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.about-text h1{
+    font-size: 6rem;
+    transition: .2s;
+    transition-timing-function: ease;
+    margin-bottom: 25px;
+}
+
+.about-text h5{
+    font-size: 30px;
+    margin-bottom: 30px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.about-text p{
+    font-size: 23px;
+    color: rgb(138, 200, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
 }
