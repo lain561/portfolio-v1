@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    max-height: 100vh; 
 }
 
 .about{
@@ -38,7 +37,7 @@
 }
 
 .about-box{
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
     display: flex;
     align-items: center;
