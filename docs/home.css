@@ -9,7 +9,7 @@ main{
     opacity: 0;
     animation: fadeIn 1.5s forwards;   
     position: relative;
-    top: -50px;
+    top: -60px;
     text-align: center;
 }
 

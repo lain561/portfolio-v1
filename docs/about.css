@@ -3,6 +3,8 @@
 }
 
 .about{
+    position: relative;
+    top: 0px;
     width: 100%;
 }
 
@@ -11,8 +13,8 @@
     animation: fadeIn 1.5s forwards;
     text-align: center;
     font-size: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 2rem; 
+    margin-top: 5.2rem;
+    margin-bottom: 5rem; 
 }
 
 .about-header h1{
@@ -23,13 +25,13 @@
 .about-image{
     margin: auto;
     margin-left: 90px;
-    width: 400px;
+    width: 290px;
 }
 
 .about img{
     height: auto; 
     width: 100%;
-    border-radius: 200px;
+    border-radius: 50px;
 }
 
 .about-header h1:hover{
@@ -42,7 +44,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: fadeInUp 1.5s ease;  
+    animation: fadeInUp 1s ease;  
+    transition: .3s ease;
+    padding: 40px 60px;
+    border-color: #78CCFB;
+    border-width: 3px;
+    border-radius: 75px;
+    border-style: solid;
+    box-shadow: 0 0px 20px #78CCFB;
+}
+
+.about-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 30px #78CCFB;
 }
 
 .about-text{
@@ -50,16 +64,17 @@
 }
 
 .about-text h5{
-    font-size: 2rem;
-    margin-bottom: 30px;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
 }
 
 .about-text p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    color: rgb(138, 200, 255);
+    font-size: 19px;
+    color: #8fd6ff;
     letter-spacing: 1px;
     line-height: 1.5;
+    font-weight: 3;
 }
 
 @keyframes fadeInUp {
