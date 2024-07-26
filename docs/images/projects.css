@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+
+.projects-header{
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5.2rem;
+    margin-bottom: 3.5rem; 
+    transition: .2s;
+    transition-timing-function: ease;
+}
