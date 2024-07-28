@@ -1,3 +1,7 @@
+*{
+    overflow-y: hidden;
+}
+
 main{
     display: flex;
     align-items: center;

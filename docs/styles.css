@@ -4,7 +4,6 @@ body, html {
     min-height: 100vh;
     background-color: #0c0d11;
     font-family: 'White Rabbit', Verdana, Geneva, Tahoma, sans-serif;
-    overflow-y: hidden;
 }
 
 h1, h2, h5{
