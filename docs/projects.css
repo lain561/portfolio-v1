@@ -1,11 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body{
     margin-inline: auto;
+    animation: fadeIn 1.5s forwards;
+    opacity: 0;
 }
 
 img{
@@ -15,8 +15,6 @@ img{
 }
 
 .projects-header{
-    opacity: 0;
-    animation: fadeIn 1.5s forwards;
     text-align: center;
     font-size: 5rem;
     margin-top: 5.2rem;
@@ -40,6 +38,10 @@ img{
 }
 
 .projects-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
     width: 100%;
     border-style: solid;
     border-radius: 5px;
