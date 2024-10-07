@@ -21,7 +21,7 @@ main{
     text-align: center;
     font-size: 5rem;
     margin-top: 5.2rem; 
-    margin-bottom: 5.2rem; 
+    margin-bottom: 2rem; 
     transition: .2s;
     transition-timing-function: ease;
 }
@@ -48,7 +48,7 @@ main{
 
 .skills-box h2{
     margin-top: 20px;
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
 }
 
