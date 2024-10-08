@@ -4,7 +4,7 @@
 
 body{
     margin-inline: auto;
-    animation: fadeIn 1.5s forwards;
+    animation: fadeIn 1s forwards;
     opacity: 0;
 }
 

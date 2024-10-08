@@ -11,7 +11,7 @@ main{
 
 .intro {
     opacity: 0;
-    animation: fadeIn 1.5s forwards;   
+    animation: fadeIn 1s forwards;   
     position: relative;
     top: -60px;
     text-align: center;
@@ -41,6 +41,7 @@ button{
     font-family: 'White Rabbit';
     font-size: x-large;
     color:#78CCFB;
+    box-shadow: 0 0px 5px #78CCFB;
     width: 220px; 
     height: 3.2rem;
     border-radius: 15px;
