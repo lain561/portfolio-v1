@@ -2,7 +2,7 @@ body, html {
     padding: 0px;
     margin: 0px;
     min-height: 100vh;
-    background-color: #0c0d11;
+    background-color: #0b0e1b;
     font-family: 'White Rabbit', Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -19,4 +19,17 @@ h1, h2, h5{
 
 @keyframes fadeIn {
     100% {opacity: 100%; transform: translateY(10px);}
+}
+
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100%{
+        opacity: 1; 
+        transform: translateY(0px);
+    }
+
 }
