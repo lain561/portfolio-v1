@@ -39,14 +39,14 @@
 
 .about-box{
     position: relative;
-    top: 20px;
+    top: 30px;
     width: 65%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: fadeInUp 1s ease;  
-    transition: .3s ease;
+    transition: .25s ease;
     padding: 40px 65px;
     border-radius: 75px;
     border-color: #78CCFB;
