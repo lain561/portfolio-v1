@@ -29,7 +29,7 @@
 .about img{
     height: auto; 
     width: 100%;
-    border-radius: 65px;
+    border-radius: 50px;
     animation: fadeInRight 1s ease;  
 }
 
@@ -48,15 +48,8 @@
     animation: fadeInUp 1s ease;  
     transition: .25s ease;
     padding: 40px 65px;
-    border-radius: 75px;
     border-color: #78CCFB;
     border-width: 3px;
-}
-
-.about-box:hover{
-    transform: scale(1.05);
-    box-shadow: 0 0px 40px #78CCFB;
-    border-style: solid;    
 }
 
 .about-text{
@@ -90,8 +83,74 @@
     }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1400px){
     .about-header{
-        font-size: 3.5rem;
+        font-size: 4.2rem;
+    }
+
+    .about-box{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-image{
+        margin: 35px 0; 
+    }
+
+}
+
+@media (max-width: 800px){
+    .about-header{
+        font-size: 4rem;
+    }
+
+    .about-text h5{
+        font-size: 1.3rem;
+        margin-bottom: 20px;
+    }
+
+    .about-text p{
+        font-size: 17px;
+    }
+
+    .about-header{
+        font-size: 3rem;
+        margin-top: 4rem;
+        margin-bottom: .75rem; 
+    }
+
+    .about-image{
+        width: 320px;
+    }
+}
+
+@media (max-width: 400px){
+    .about-header{
+        font-size: 2.5rem;
+        margin-top: 5.2rem;
+        margin-bottom: 0    ; 
+    }
+
+    .about-text h5{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .about-text p{
+        width: 100%;
+        font-size: 12.5px;
+    }
+
+    .about-image{
+        width: 250px;
+    }
+
+}
+
+@media (min-width: 1400px){
+    .about-box:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0px 40px #78CCFB;
+        border-style: solid;    
     }
 }
