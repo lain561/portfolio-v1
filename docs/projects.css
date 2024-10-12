@@ -12,6 +12,7 @@ body{
     width: 100%;
     max-height: 250px;
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .projects-header{
@@ -33,16 +34,15 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust the min-width as needed */
     justify-items: center;
     grid-column: span 3;
-    gap: 5rem;
-    margin-top: 4.5rem;
-    margin-bottom: 8rem; 
+    gap: 5rem; 
 }
 
 .projects-box{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 500px;
+    justify-content: space-between;
+    height: 600px;
     width: 100%;
     border-style: solid;
     border-radius: 5px;
@@ -58,14 +58,6 @@ body{
 }
 .projects-box a{
     text-decoration: none;
-}
-
-
-.projects-box img{
-    padding: 1.5rem;
-    padding-top: 1.2rem;
-    padding-bottom: 0;
-   
 }
 
 .projects-box p{
@@ -98,17 +90,12 @@ body{
     line-height: 1.5;
     font-weight: 1;
     padding-top: 0;
-    margin-bottom: 1rem;
-    margin: 0 20px;
+    margin: 20px 17px;
 }
-
-.projects-tools{
-    margin: 0 20px;
-}
-
 
 .projects-image{
     width: 100%;
+    padding: 12px 15px;  
 }
 
 @media (max-width: 400px){
