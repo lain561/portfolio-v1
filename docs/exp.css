@@ -1,0 +1,45 @@
+body{
+    overflow-x: hidden;
+    animation: fadeIn 1s forwards;
+    opacity: 0;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    animation: fadeInUp 1s forwards;
+}
+
+.exp-header{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5.2rem;
+    margin-bottom: 3.5rem; 
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.exp-header:hover{
+    transform: translateY(-8px);
+}
+
+
+.exp-box{
+    width: 65%;
+    height: 350px;
+    background-color: black;
+    border: 2px solid #78CCFB;
+    border-radius: 30px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    transition: .2s;
+    transition-timing-function: ease;
+}
+
+.exp-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0px 20px #78CCFB;
+}
