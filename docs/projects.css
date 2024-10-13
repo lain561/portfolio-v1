@@ -11,8 +11,9 @@ body{
 .projects-box img{
     width: 100%;
     max-height: 250px;
-    object-fit: cover;
-    border-radius: 15px;
+    object-fit: fill;
+    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .projects-header{
@@ -42,13 +43,13 @@ body{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
-    height: 600px;
+    height: 525px;
     width: 100%;
     border-style: solid;
     border-radius: 5px;
     border-color: #78CCFB;
     border-width: 2px;
-    border-radius: 25px;
+    border-radius: 20px;
     box-shadow: 0 0px 5px #78CCFB;
     background-color: black;
     color: #78CCFB;
@@ -62,7 +63,8 @@ body{
 
 .projects-box p{
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
+    font-size: .95rem;
 }
 
 
@@ -75,10 +77,6 @@ body{
     font-size: 2rem;
 }
 
-.projects-title, .projects-desc{
-    padding: 1rem 3rem;
-}
-
 .projects-title:hover{
     opacity: 50%;
     transition: 0.5s;
@@ -88,18 +86,33 @@ body{
     color: #8fd6ff;
     letter-spacing: 1px;
     line-height: 1.5;
-    font-weight: 1;
-    padding-top: 0;
-    margin: 20px 17px;
+    margin: 10px 20px;
+}
+
+.projects-tools{
+    margin: 0px 17px;
+    margin-bottom: 25px;
 }
 
 .projects-image{
     width: 100%;
-    padding: 12px 15px;  
+    padding: 0px 30px;  
+    padding-top: 20px;
+    margin-bottom: 15px;
 }
 
-@media (max-width: 400px){
+.top-content{
+    width: 100%;
+}
+
+@media (max-width: 600px){
     .projects-header{
         font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1116px) {
+    .projects-box{
+        width: 439px;
     }
 }
