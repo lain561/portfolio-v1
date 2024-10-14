@@ -33,7 +33,7 @@ main{
     justify-content: start;
     width: 65%;
     height: 325px;
-    background-color: black;
+    background-color: #070912;
     border: 2px solid #78CCFB;
     border-radius: 30px;
     margin-top: 0px;
@@ -43,7 +43,7 @@ main{
 }
 
 .exp-box:hover{
-    transform: scale(1.05);
+    transform: scale(1.03);
     box-shadow: 0 0px 20px #78CCFB;
 }
 
@@ -86,8 +86,8 @@ main{
 }
 
 .exp-logo img{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
     border-radius: 10px;
 }
