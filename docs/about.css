@@ -150,7 +150,7 @@
 
 @media (min-width: 1425px){
     .about-box:hover{
-        transform: scale(1.05);
+        transform: scale(1.03);
         box-shadow: 0 0px 40px #78CCFB;
         border-style: solid;    
     }
