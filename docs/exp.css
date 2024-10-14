@@ -50,7 +50,6 @@ main{
 .exp-content{
     width: 70%;
     height: 100%;
-    border: 2px solid white;
     padding-left: 25px;
 }
 
@@ -79,11 +78,20 @@ main{
 }
 
 .exp-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 30%;
     height: 100%;
-    border: 2px solid white;
-   
 }
+
+.exp-logo img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 .exp-top h1{
     font-size: 2rem;
     margin-bottom: 5px;
