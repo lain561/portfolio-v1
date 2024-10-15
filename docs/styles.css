@@ -12,6 +12,11 @@ h1, h2, h5{
     font-weight: 1;
 }
 
+.about-header, .projects-header, .exp-header{
+    margin-left:  45rem;
+    margin-right: 45rem;
+}
+
 @media (max-width: 900px){
     .about-header, .projects-header, .exp-header{
         font-size: 3.5rem;
