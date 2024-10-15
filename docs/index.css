@@ -7,7 +7,7 @@ main{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-}
+} 
 
 .intro {
     opacity: 0;
@@ -90,13 +90,13 @@ button:hover{
 
 @media(max-width: 500px){
     .hello {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
     
     .name {
         margin-top: 2rem;
         margin-top: 2rem;
-        font-size: 3rem;
+        font-size: 2.75rem;
     }
 
     button
