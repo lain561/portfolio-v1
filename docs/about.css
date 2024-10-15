@@ -107,7 +107,6 @@
     }
 
     .about-header{
-        font-size: 3.5rem;
         margin-top: 4rem;
         margin-bottom: .75rem; 
     }
@@ -120,7 +119,7 @@
 @media (max-width: 400px){
     .about-header{
         margin-top: 5.2rem;
-        margin-bottom: 0    ; 
+        margin-bottom: 0; 
     }
 
     .about-text h5{

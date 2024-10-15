@@ -90,13 +90,13 @@ button:hover{
 
 @media(max-width: 500px){
     .hello {
-        font-size: 1.5rem;
+        font-size: 1.75em;
     }
     
     .name {
         margin-top: 2rem;
         margin-top: 2rem;
-        font-size: 2.75rem;
+        font-size: 3rem;
     }
 
     button
