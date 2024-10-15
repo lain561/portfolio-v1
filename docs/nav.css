@@ -126,6 +126,10 @@ nav a:hover{
     .nav-icons li .github{
         padding-left: 1rem;
     }
+    
+    .brand-name a{
+        margin-left: 33px;
+    }
 }
 
 @media(max-width: 600px){

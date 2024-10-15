@@ -23,8 +23,8 @@ main{
     font-size: 5rem;
     margin-top: 5.2rem; 
     margin-bottom: 2rem; 
-    margin-left:  45rem;
-    margin-right: 45rem;
+    margin-left:  30%;
+    margin-right: 30%;
     transition: .2s;
     transition-timing-function: ease;
 }
@@ -64,6 +64,8 @@ main{
 @media (max-width: 900px){
     .skills-header{
         font-size: 3.5rem;
+        margin-left:  10%;
+        margin-right: 10%;
     }
 
     .skills-box h2{

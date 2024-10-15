@@ -13,13 +13,15 @@ h1, h2, h5{
 }
 
 .about-header, .projects-header, .exp-header{
-    margin-left:  45rem;
-    margin-right: 45rem;
+    margin-left:  30%;
+    margin-right: 30%;
 }
 
 @media (max-width: 900px){
     .about-header, .projects-header, .exp-header{
         font-size: 3.5rem;
+        margin-left:  10%;
+        margin-right: 10%;
     }
 }
 
