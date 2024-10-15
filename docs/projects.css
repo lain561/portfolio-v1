@@ -107,6 +107,14 @@ body{
     .projects-header{
         font-size: 3.5rem;
     }
+    
+    .projects{
+        gap: 0rem;
+    }
+
+    .projects-box{
+        scale: .85;
+    }
 }
 
 @media (max-width: 1116px) {

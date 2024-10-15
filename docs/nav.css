@@ -86,7 +86,7 @@ nav a:hover{
 
 .menu{
     position: absolute;
-    top: 8px;
+    top: 7.5px;
     right: 1rem;
     display: none;
 }
@@ -128,9 +128,14 @@ nav a:hover{
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px){
     .brand-name a{
         font-weight: 1;
-        font-size: 1.25rem;
+        font-size: 1.3rem;
+    }
+
+    .menu{
+        scale: 0.7;
+        top: 6px;
     }
 }
