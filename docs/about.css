@@ -85,10 +85,6 @@
 }
 
 @media (max-width: 1400px){
-    .about-header{
-        font-size: 4.2rem;
-    }
-
     .about-box{
         flex-direction: column;
         width: 100%;
@@ -101,10 +97,6 @@
 }
 
 @media (max-width: 800px){
-    .about-header{
-        font-size: 4rem;
-    }
-
     .about-text h5{
         font-size: 1.3rem;
         margin-bottom: 20px;
@@ -115,19 +107,18 @@
     }
 
     .about-header{
-        font-size: 3rem;
+        font-size: 3.5rem;
         margin-top: 4rem;
         margin-bottom: .75rem; 
     }
 
     .about-image{
-        width: 320px;
+        width: 300px;
     }
 }
 
 @media (max-width: 400px){
     .about-header{
-        font-size: 2.5rem;
         margin-top: 5.2rem;
         margin-bottom: 0    ; 
     }
@@ -143,7 +134,7 @@
     }
 
     .about-image{
-        width: 250px;
+        width: 200px;
     }
 
 }
