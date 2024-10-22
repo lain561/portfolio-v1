@@ -118,7 +118,10 @@ main{
     .exp-box{
         width: 439px;
         height: 525px;
+    }
 
+    .exp-top h1{            
+        font-size: 1.6rem;
     }
 
     .exp-logo{
