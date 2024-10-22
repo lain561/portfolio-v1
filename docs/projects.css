@@ -35,6 +35,7 @@ body{
     justify-items: center;
     grid-column: span 3;
     gap: 5rem; 
+    animation: fadeInUp 1s forwards;
 }
 
 .projects-box{
