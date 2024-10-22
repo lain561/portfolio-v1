@@ -101,3 +101,42 @@ main{
     color: #78CCFB;
 }
 
+@media (max-width: 1400px){
+    .exp-box{
+        width: 75%;
+    }
+
+    .exp-logo img{
+        width: 70%;
+        height: 55%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 900px){
+    .exp-box{
+        width: 439px;
+        height: 525px;
+
+    }
+
+    .exp-logo{
+        display: none;
+    }
+
+    .exp-content{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .exp-desc li{
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 500px){
+    .exp-box{
+        width: 90%;
+    }
+}
