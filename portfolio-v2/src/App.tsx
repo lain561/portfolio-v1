@@ -9,6 +9,8 @@ import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 
+import Navbar from './components/Navbar';
+
 function App() {
   const vantaRef = useRef(null);
   const [vantaEffect, setVantaEffect] = useState<ReturnType<typeof NET> | null>(null);
@@ -42,6 +44,7 @@ function App() {
         style={{ filter: 'blur(10px)' }} 
       >
       </div>
+      <Navbar />
 
       {/* Content above the background */}
       <div className="relative z-20">
