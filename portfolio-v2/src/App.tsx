@@ -24,9 +24,9 @@ function App() {
           color: 0x4c4589,
           backgroundColor: 0x50534,
           points: 20.0,
-          maxDistance: 20.0,
+          maxDistance: 2.0,
           spacing: 20.0,
-          showDots: false
+          showDots: true
         })
       );
     }
