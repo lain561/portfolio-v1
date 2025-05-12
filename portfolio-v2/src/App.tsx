@@ -24,7 +24,7 @@ function App() {
           color: 0x4c4589,
           backgroundColor: 0x50534,
           points: 20.0,
-          maxDistance: 22.0,
+          maxDistance: 20.0,
           spacing: 20.0,
           showDots: false,
         })
@@ -41,7 +41,7 @@ function App() {
       <div
         ref={vantaRef}
         className="absolute top-0 left-0 w-full h-full z-10 brightness-50"
-        style={{ filter: 'blur(10px)' }} 
+        style={{ filter: 'blur(12px)' }} 
       >
       </div>
       <Navbar />

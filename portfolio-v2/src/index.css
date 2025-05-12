@@ -16,7 +16,11 @@
 
 @font-face {
   font-family: 'future';
-  src: url('./assets/fonts/aspace-cufonfonts-webfont/aspace_italic_demo.woff') format('woff');
+  src: url('./assets/fonts/neuropol/Neuropol.otf') format('opentype');
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
