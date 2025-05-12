@@ -24,7 +24,7 @@ function App() {
           color: 0x4c4589,
           backgroundColor: 0x50534,
           points: 20.0,
-          maxDistance: 20.0,
+          maxDistance: 15.0,
           spacing: 20.0,
           showDots: false,
         })
@@ -40,14 +40,14 @@ function App() {
     <Router>
       <div
         ref={vantaRef}
-        className="absolute top-0 left-0 w-full h-full z-10 brightness-50"
+        className="absolute top-0 left-0 w-full h-full -z-10 brightness-50"
         style={{ filter: 'blur(12px)' }} 
       >
       </div>
       <Navbar />
 
       {/* Above Background */}
-      <div className=" relative z-20">
+      <div className="relative z-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
