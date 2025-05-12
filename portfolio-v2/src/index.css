@@ -19,10 +19,9 @@
   src: url('./assets/fonts/aspace-cufonfonts-webfont/aspace_italic_demo.woff') format('woff');
 }
 
-body{
-  display: flex;
-  align-items: center;
-  justify-items: center;
+body {
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 a {

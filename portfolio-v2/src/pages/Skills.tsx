@@ -1,8 +1,9 @@
+import Title  from "../components/PageTitle";
 
 function Skills() {
     return (
       <>
-        Skills
+        <Title title="Skills" />
       </>
     );
   }

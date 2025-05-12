@@ -1,8 +1,9 @@
+import Title  from "../components/PageTitle";
 
 function Experience() {
     return (
       <>
-        Experience
+        <Title title="Experience" />
       </>
     );
   }

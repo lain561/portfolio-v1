@@ -1,8 +1,9 @@
+import Title from "../components/PageTitle";
 
 function About() {
   return (
     <>
-      About
+      <Title title="About Me" />
     </>
   );
 }

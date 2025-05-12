@@ -24,9 +24,9 @@ function App() {
           color: 0x4c4589,
           backgroundColor: 0x50534,
           points: 20.0,
-          maxDistance: 2.0,
+          maxDistance: 22.0,
           spacing: 20.0,
-          showDots: true
+          showDots: false,
         })
       );
     }
@@ -46,8 +46,8 @@ function App() {
       </div>
       <Navbar />
 
-      {/* Content above the background */}
-      <div className="relative z-20">
+      {/* Above Background */}
+      <div className=" relative z-20">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
