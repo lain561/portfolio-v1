@@ -2,7 +2,13 @@ function Home() {
   return (
     <div className="min-h-screen min-w-screen flex flex-col items-center justify-center text-center">
         <h2 className="text-[2.1rem] text-shadow-lg">hi, my name is</h2>
-        <h1 className="text-[4.3rem] text-shadow-lg">ethan mckissic</h1>
+        <h1 className="text-[4.3rem]  mb-4 text-shadow-lg">ethan mckissic</h1>
+        <div className="w-[390px] h-14 flex flex-row items-center justify-between"> 
+            <a href="mailto: mckissicethan@gmail.com" target="_blank"><img className="h-13 w-13" src="../../public/images/icons8-gmail-100.png" alt="Email"/></a>
+            <a href="https://github.com/lain561" target="_blank"><img className="h-13 w-13"  src="../../public/images/icons8-github-96.png" alt="GitHub"/></a>
+            <a href="https://www.linkedin.com/in/ethan-mckissic-1682362a8/" target="_blank"><img className="h-12 w-12" src="../../public/images/icons8-linkedin-100.png" alt="LinkedIn"/></a>
+            <a href="" target="_blank"><img className="h-12 w-12" src="../../public/images/icons8-resume-96.png" alt="Resume"/></a>
+        </div>
     </div>
   );
 }
