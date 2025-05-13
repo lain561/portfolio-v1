@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="min-h-screen min-w-screen flex flex-col items-center justify-center">
         <Title title="About Me" />
-        <div className="relative top-16 w-2/3 mx-auto flex items-center justify-center px-4">
+        <div className="relative top-20 w-2/3 mx-auto flex items-center justify-center px-4">
           <div className="flex-1">
 
             {/* I THINK I SHGOULD USE A WAVING ICON GIF*/}
