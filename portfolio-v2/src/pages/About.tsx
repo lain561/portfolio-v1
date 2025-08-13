@@ -16,6 +16,13 @@ const aboutData = [
            Over the years, I've honed my skills in various programming languages and frameworks, always eager to learn and adapt. 
            My goal is to continue growing as a developer and contribute to meaningful projects that make a difference.`,
   },
+  {
+    title: "A little more about me",
+    image: "/images/lain.gif",
+    desc: `When I'm not coding, you can find me exploring the latest tech trends, contributing to open-source projects, or working on personal projects that challenge my skills.
+           I believe in the power of community and collaboration, and I'm always excited to connect with fellow developers and tech enthusiasts.
+           If you're interested in collaborating or just want to chat about tech, feel free to reach out!`,
+  },
 ];  
 
 function About() {
