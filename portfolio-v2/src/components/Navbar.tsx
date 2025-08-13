@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <header className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] mt-4 px-8 py-3 flex items-center justify-between border border-white/50 rounded-3xl shadow-2xl z-50 backdrop-blur-sm bg-white/10">
+    <header className="fixed top-4 left-1/2 -translate-x-1/2 w-[90%] mt-2 px-8 py-3 flex items-center justify-between 
+      border border-white/50 rounded-3xl shadow-2xl z-50 backdrop-blur-sm bg-white/10">
       {/* Logo */}
       <Link to="/" className="text-xl font-bold tracking-wide pl-2">
         ethan mckissic

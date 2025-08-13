@@ -40,7 +40,7 @@ function App() {
     <Router>
       <div
         ref={vantaRef}
-        className="absolute top-0 left-0 w-full h-full -z-10 brightness-50"
+        className="absolute top-0 left-0 w-screen h-screen -z-10 brightness-50"
         style={{ filter: 'blur(12px)' }} 
       >
       </div>
